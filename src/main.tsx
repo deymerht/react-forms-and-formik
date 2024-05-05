@@ -6,8 +6,9 @@ import ReactDOM from 'react-dom/client';
 // import { FormikYupPage } from './pages/FormikYupPage';
 // import { FormikBasicPage } from './pages/FormikBasicPage';
 // import { FormikComponents } from './pages/FormikComponent';
-import { FormikAbstraction } from './pages/FormikAbstraction';
-
+// import { FormikAbstraction } from './pages/FormikAbstraction';
+// import { RegisterFormikPage } from './pages/RegisterFormikPage';
+import { DynamicForm } from './pages/DynamicForm';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -17,6 +18,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     {/* <FormikBasicPage /> */}
     {/* <FormikYupPage /> */}
     {/* <FormikComponents /> */}
-    <FormikAbstraction />
+    {/* <FormikAbstraction /> */}
+    {/* <RegisterFormikPage /> */}
+    <DynamicForm />
   </React.StrictMode>,
 )

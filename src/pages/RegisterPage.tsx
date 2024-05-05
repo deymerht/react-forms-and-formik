@@ -36,7 +36,7 @@ export const RegisterPage = () => {
           value={email}
           type="email"
           placeholder="Email"
-          className={`${!isValidEmail(email) && <span>El email no es válido</span>}`}
+          className={`${!isValidEmail(email) && 'has-error'}`}
         />
         {!isValidEmail(email) && <span>El email no es válido</span>}
         <input
